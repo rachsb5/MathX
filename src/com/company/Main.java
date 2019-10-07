@@ -10,11 +10,20 @@ public class Main {
         return d;
     }
 
+    private static void timeLeft(int curHour, int curMin, int depHour, int depMin) {
+        curHour = 60 * curMin;
+        System.out.println(timeLeft(1,15,4,36));
+    }
+
     public static void main(String[] args) {
 	// write your code here
         int x = swap(123);
         int y = swap(567);
         System.out.println(x);
         System.out.println(y);
+        int e = 1;
+
+        timeLeft(1,15,4,36);
+        timeLeft(1,38,8,20);
     }
 }
